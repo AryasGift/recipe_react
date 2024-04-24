@@ -1,0 +1,75 @@
+
+.description{
+   margin-top: 100px;
+}
+.section{
+    margin-top: 60px;
+    position: fixed;
+}
+.section2{
+    margin-top: 250px;
+     position: static;
+}
+.card-styles{
+    margin:50px;
+    text-align: center;
+
+}
+.header-image{
+  background-image: url("https://i.postimg.cc/6qs8by1R/lunch2.jpg");
+  height: 400px;
+  background-size: cover;
+}
+.card1{
+    transition: .5s ease-in-out;
+
+}
+.card1:hover{
+    transform: scale(1.05);
+    }
+.form-st{
+    margin-top: 160px;
+    border-radius: 5px;
+}
+.FooterSection{
+    font-family: Basis_Grotesque_Pro;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: rgba(2, 6, 12, 0.75);
+}
+.Footer2{
+    background-color: black;
+    color:white;
+}
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    .section{
+        width: 300px;
+    }
+    .card-styles{
+        width:100%;
+    }
+    .section{
+        position: static;
+        margin-top: 100px;
+        padding: 0px;
+    } 
+    .section2{
+       margin-top: 0px;
+       position: static;
+    }
+    .text-center{
+        text-align: left;
+    }
+    .card-styles{
+        margin:0px !important;
+    }
+    .description{
+        margin-top: 10px;
+    }
+
+}
